@@ -1,0 +1,33 @@
+fieldset{
+    width: 350px;
+}
+body{
+    align-content: center;
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+.hr-lines:before{
+content: ;
+display: block;
+height: 2px;
+width: 130px;
+position:absolute;
+top: 50%;
+left: 0%;   
+background: red;
+}
+
+.hr-lines:after{
+    content: ;
+    display: block;
+    height: 2px;
+    width: 130px;
+    position:absolute;
+    top: 50%;
+    left: 0%;   
+    background: red;
+    }
